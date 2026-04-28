@@ -20,10 +20,10 @@ export default function RootLayout({ children }) {
       className={`${OutfitFont.className} h-full antialiased`}
     >
       <body>
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }
